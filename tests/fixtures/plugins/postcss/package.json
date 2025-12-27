@@ -1,0 +1,12 @@
+{
+  "name": "@plugins/postcss",
+  "scripts": {
+    "postcss": "postcss"
+  },
+  "devDependencies": {
+    "postcss": "*"
+  },
+  "postcss": {
+    "plugins": ["autoprefixer"]
+  }
+}

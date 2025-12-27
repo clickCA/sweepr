@@ -1,0 +1,9 @@
+{
+  "name": "@plugins/rollup",
+  "scripts": {
+    "build": "rollup"
+  },
+  "devDependencies": {
+    "rollup": "*"
+  }
+}

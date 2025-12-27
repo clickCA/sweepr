@@ -1,0 +1,4 @@
+{
+  "name": "@fixtures/workspaces-cross-reference",
+  "workspaces": ["packages/*"]
+}

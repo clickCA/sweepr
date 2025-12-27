@@ -1,0 +1,9 @@
+{
+  "name": "@plugins/typedoc",
+  "devDependencies": {
+    "typedoc": "*"
+  },
+  "typedocOptions": {
+    "plugin": ["typedoc-plugin-umami"]
+  }
+}

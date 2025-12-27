@@ -1,0 +1,7 @@
+{
+  "name": "@fixtures/workspaces-paths-compilers",
+  "workspaces": ["packages/*"],
+  "dependencies": {
+    "vue": "*"
+  }
+}

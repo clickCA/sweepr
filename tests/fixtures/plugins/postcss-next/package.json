@@ -1,0 +1,15 @@
+{
+  "name": "@plugins/postcss-next",
+  "scripts": {
+    "start": "next"
+  },
+  "dependencies": {
+    "next": "*"
+  },
+  "devDependencies": {
+    "postcss-rtlcss": "*"
+  },
+  "postcss": {
+    "plugins": ["autoprefixer"]
+  }
+}

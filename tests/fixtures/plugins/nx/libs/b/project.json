@@ -1,0 +1,36 @@
+{
+  "sourceRoot": "libs/b",
+  "projectType": "application",
+  "targets": {
+    "ls-project-root": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["ls apps/frontend/src"]
+      }
+    },
+    "webpack": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "webpack"
+      }
+    },
+    "generate-docs": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx -- compodoc -p apps/frontend/tsconfig.app.json"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest"
+    },
+    "tsc": {
+      "executor": "./tools/executors/tsc:tsc"
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [{ "command": "biome lint ." }]
+      }
+    }
+  }
+}

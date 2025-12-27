@@ -1,0 +1,4 @@
+{
+  "name": "@fixtures/workspaces-tooling",
+  "workspaces": ["./packages/*"]
+}

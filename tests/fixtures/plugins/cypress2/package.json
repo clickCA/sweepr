@@ -1,0 +1,6 @@
+{
+  "name": "@plugins/cypress2",
+  "devDependencies": {
+    "cypress": "*"
+  }
+}

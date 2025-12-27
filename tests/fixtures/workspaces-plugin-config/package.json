@@ -1,0 +1,12 @@
+{
+  "name": "@fixtures/workspaces-plugin-config",
+  "scripts": {
+    "test": "jest"
+  },
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "eslint-config-airbnb": "*",
+    "jest": "^29.7.0",
+    "jest-phabricator": "^29.7.0"
+  }
+}
